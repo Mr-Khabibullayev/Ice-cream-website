@@ -1,0 +1,2398 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@300;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1520px;
+    margin: 0 auto;
+    font-family: 'Nunito';
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+button{
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFEBEB;
+}
+header h1{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 160%;
+}
+header h1 span{
+    color: #FA7154;
+}
+header ul{
+    display: flex;
+}
+header ul li a{
+    color: rgba(0, 0, 0, 0.5);
+    margin-right:40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+header button{
+    width: 128px;
+    height: 49px;
+    background: #D92520;
+    box-shadow: inset 15px 8px 38px rgba(96, 10, 8, 0.2);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 120%;
+    cursor: pointer;
+}
+.banner_first{
+     padding: 15px 100px;
+    width: 100%;
+    height: auto;
+    background-color: #FFEBEB;
+}
+@media screen and (max-width:569px) {
+    .banner_first{
+        padding: 10px 30px;
+    }
+}
+.banner_one{
+    width: 100%;
+    height: 100vh;
+    background: #FFEBEB;
+    padding: 15px 100px;
+}
+ .sell_ice_cream h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #D6241F;
+}
+.sell_ice_cream{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #fff;
+   width: 147px;
+   height: 31px;
+   border-radius: 280px;
+}
+.sell_ice_cream img{
+    margin-top: -19px;
+} 
+.ice_cream_information h1{
+    font-weight: 800;
+    font-size: 61px;
+    line-height: 125%;
+    width: 499px;
+}
+.ice_cream_information h1 span{
+    color: #d62b1f9a;
+}
+.ice_cream_information p{
+    width: 444px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.description_ice_cream{
+    padding: 4% 0% 0% 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.ice_cream_information{
+    margin-top: 100px;
+}
+.ice_cream_information button{
+    width: 141px;
+    height: 49px;
+    left: 233px;
+    top: 589px;
+    background: #D92520;
+    box-shadow: inset 15px 8px 38px rgba(96, 10, 8, 0.2);
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+.ice_cream_image{
+     width: 700px;
+     height: 550px;
+     /* background-color: #fff; */
+}
+@media screen and (max-width:1500px) {
+    .banner_one{
+        height: 100vh;
+    }
+}
+@media screen and (max-width:1470px){
+    .ice_cream_image{
+        width: 650px;
+    }
+}
+@media screen and (max-width:1351px){
+    .ice_cream_information h1{
+        font-size: 51px;
+        width: 100%;
+    }
+    .ice_cream_information p{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1263px){
+    .ice_cream_image{
+        width: 600px;
+        height: 500px;
+    }
+}
+@media screen and (max-width:1218px){
+    .ice_cream_information{
+        margin-top: 40px;
+    }
+    .ice_cream_image{
+        height: 420px;
+        width: 540px;
+    }
+    header ul li a{
+        font-size: 16px;
+        margin-right:30px;
+    }
+}
+@media screen and (max-width:1154px){
+     header button{
+        width: 108px;
+        height: 39px;
+        font-size: 13px;
+     }
+     .ice_cream_information button{
+        width: 108px;
+        height: 39px;
+        font-size: 13px;
+     }
+     header h1{
+        font-size: 36px;
+     }
+    
+     .sell_ice_cream{
+         transform: scale(0.8);
+         margin-left: -10px;
+     }
+     .ice_cream_information h1{
+         font-size: 40px;
+     }
+     .ice_cream_information p{
+         font-size: 14px;
+     }
+     .ice_cream_image{
+         width: 500px;
+         height: 380px;
+     }
+}
+@media screen and (max-width:1028px){
+    .ice_cream_image{
+        width: 450px;
+    }
+}
+@media screen and (max-width:974px){
+    header ul li a{
+        font-size: 12px;
+    }
+    .ice_cream_image{
+        width: 400px;
+        height: 350px;
+    }
+}
+@media screen and (max-width:924px){
+    .ice_cream_information h1{
+        font-size: 33px;
+    }
+    .ice_cream_information p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:869px){
+    .ice_cream_image{
+        width: 350px;
+        height: 300px;
+    }
+    .ice_cream_information p{
+        margin-bottom: 20px;
+    }
+    .ice_cream_information h1{
+        margin-bottom: -10px;
+    }
+    .sell_ice_cream{
+        transform: scale(0.6);
+        margin-left: -30px;
+    }
+    .ice_cream_information{
+        margin-top: 20px;
+    }
+    header button{
+        width: 88px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .ice_cream_information button{
+        width: 98px;
+        height: 25px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:817px){
+    .ice_cream_image{
+        width: 300px;
+        height: 280px;
+    }
+}
+@media screen and (max-width:768px){
+    header ul li a{
+        margin-right: 20px;
+    }
+    .ice_cream_information h1{ 
+        font-size: 25px;
+    }
+    .ice_cream_information p{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:746px){
+    header ul{
+        display: none;
+    }
+    .description_ice_cream{
+        display: block;
+    }
+    .ice_cream_image{
+       position: absolute;
+       top: 11%;
+       left: 18%;
+       width: 400px;
+       margin: 0 auto;
+    }
+    .ice_cream_information{
+        margin-top: 300px;
+        text-align: center;
+    }
+    .sell_ice_cream{
+        margin: 0 auto;
+        transform: scale(1);
+    }
+    .ice_cream_information h1{
+        font-size: 45px;
+    }
+    .ice_cream_information p{
+        font-size: 14px;
+    }
+    header button ,.ice_cream_information button{
+        width: 118px;
+        height: 35px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:679px){
+    .banner_one {
+       height: 100vh;
+       padding: 10px 30px;    
+    }
+
+}
+@media screen and (max-width:579px){
+     .ice_cream_image{
+        /* width: 300px;
+        height:220px ; */
+        left: 10%;
+    } 
+    .ice_cream_information{
+        margin-top: 280px;
+    }
+    .ice_cream_information  h1{
+        font-size: 40px;
+    }
+    .sell_ice_cream{
+        transform: scale(0.7);
+    }
+    .banner_one{
+        height: 100vh;
+    }
+}
+@media screen and (max-width:482px){
+    .ice_cream_image{
+        width: 290px ;
+        height: 190px;
+        left: 14%;
+    }
+    header button ,.ice_cream_information button{
+        width: 98px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .ice_cream_information{
+        margin-top: 200px;
+    }
+    .banner_one{
+        height: 90vh;
+    }
+}
+@media screen and (max-width:389px){
+     .ice_cream_image{
+         width: 250px;
+         height: 160px;
+     }
+     .ice_cream_information{
+        margin-top: 160px;
+    }
+    .ice_cream_information h1{
+        font-size: 30px;
+    }
+    .ice_cream_information p{
+        font-size: 12px;
+    }
+    .banner_one{
+        height: 75vh;
+    }
+}
+@media screen and (max-width:332px){
+    header h1{
+        font-size: 27px;
+    }
+    header button ,.ice_cream_information button{
+        width: 68px;
+        height: 20px;
+        font-size: 8px;
+    }
+    .ice_cream_information{
+        margin-top: 160px;
+    }
+    .ice_cream_information h1{
+        font-size: 25px;
+        margin-bottom: -20px;
+    }
+    .ice_cream_image{
+        width: 220px;
+        height: 140px;
+    }
+
+}
+.banner_two{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.box_one  ,.box_three{
+    width: 21%;
+    height: 330px;
+    background: rgb(245,9,77);
+    background: linear-gradient(0deg, rgba(245,9,77,0.30885857761073177) 0%, rgba(243,45,253,0.11278014623818278) 100%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.box_two {
+    background: rgb(245,9,77);
+    background: linear-gradient(0deg, rgba(245,9,77,0.30885857761073177) 0%, rgba(243,45,253,0.11278014623818278) 100%);
+    width: 21%;
+    height: 330px;
+    /* opacity: 0.9; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+.box_one div img{
+    width: 50.33px;
+height: 39.39px;
+}
+.box_one div{
+    width: 80px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F0B387;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.box_one h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 7% 0% 5% 0%;
+
+}
+.box_one p{
+    font-size: 14px;
+    margin-bottom: 15%;
+}
+.box_two div img{
+    width: 50.33px;
+height: 39.39px;
+}
+.box_two div{
+    width: 80px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #93E3E3;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.box_two h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 7% 0% 5% 0%;
+
+}
+.box_two p{
+    font-size: 14px;
+    margin-bottom: 15%;
+}
+.box_thre div img{
+    width: 50.33px;
+height: 39.39px;
+}
+.box_three div{
+    width: 80px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #A4E28F;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.box_three h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 7% 0% 5% 0%;
+
+}
+.box_three p{
+    font-size: 14px;
+    margin-bottom: 15%;
+}
+a:hover{
+    text-decoration: 3px underline #D6241F;
+    color: rgb(240, 88, 232);
+}
+.banner_one button:hover , header button:hover, .buy_ice_cream_button button:nth-child(1):hover{
+    transition: 0.4s;
+    background-color:#f610c4;
+    color: black;
+}
+.our_products h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #D1231E;
+    background-color: #FFEBEB;
+    width: 166px;
+    height: 31px;
+    background: #FFF5F5;
+    border-radius: 171px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our_products{
+    margin-top: 203px;
+    /* background-color: #93E3E3; */
+}
+.our_products h1{
+    font-weight: 800;
+    font-size: 49px;
+    line-height: 135%;
+    width: 400px;
+}
+.our_products p{
+    width: 366px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin: 25px 0px;
+}
+.banner_three{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10%;
+}
+.cost_ice_cream{
+    display: flex;
+    margin-bottom: 35px;
+}
+.cost_ice_cream h3{
+    margin-right: 20px;
+}
+.buy_ice_cream_button button:nth-child(1){
+    margin-right: 30px;
+    background: #D92520;
+    color: white;
+}
+.buy_ice_cream_button button{ 
+    width: 128px;
+    height: 49px;
+    box-shadow: inset 15px 8px 38px rgba(96, 10, 8, 0.2);
+    border-radius: 50px;
+    border: none;
+}
+.buy_ice_cream_button button:nth-child(2){ 
+    background-color: #fff;
+    color: #D0231E;
+    border: 1px solid rgba(206, 35, 30, 0.05);
+    border-radius: 50px;
+}
+.buy_ice_cream_images{
+    display: flex;
+    align-items: center;
+    /* background-color: #93E3E3; */
+    margin-top: 100px;
+    width: 671px;
+}
+.buy_ice_cream_images button{
+    width: 36px;
+    cursor: pointer;
+    height: 36px;
+    background: rgba(250, 113, 84, 0.05);
+    border: 2px solid rgba(250, 113, 84, 0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.buy_ice_cream_images button i{
+    color: #D92520;
+}
+@media screen and (max-width:1500px) {
+}
+@media screen and (max-width:1336px) {
+    .our_products h1{
+        font-size: 40px;
+        width: auto;
+    }
+    .our_products p{
+        width: auto;
+    }
+}
+@media screen and (max-width:1245px){
+    .banner_one{
+       height: 100vh;
+    }
+    /* .banner_two{
+        height: 39vh;
+        margin-top: 40px;
+    } */
+    .our_products{
+        margin-top: 130px;
+    }
+    .buy_ice_cream_images{
+        width: auto;
+        padding: 10px 20px;
+        margin-top: 40px;
+    }
+    .buy_ice_cream_images img{
+        height: auto;
+        width: 470px;
+    }
+}
+@media screen and (max-width:1154px){
+    .banner_one{
+        height: 80vh;
+    }
+    .box_one ,.box_three , .box_two{
+        width: 27%;
+    }
+    .buy_ice_cream_images img{
+        width: 400px;
+    }
+    .our_products h4{
+        transform: scale(0.8);
+        margin-left: -15px;
+    }
+    .our_products{
+        margin-top: 70px;
+    }
+    .our_products h1{
+        font-size: 34px;
+        margin-bottom: -10px;
+    }
+    .buy_ice_cream_button button{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .banner_two{
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width:1044px){
+    .box_two h1{
+         font-size: 17px;
+    }
+    .our_products p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .buy_ice_cream_button{
+        margin-top: -20px;
+    }
+}
+@media screen and (max-width:982px){
+   .banner_two{
+       margin-top: 40px;
+   }
+   .buy_ice_cream_images img{
+       width: 350px;
+   }
+   .banner_one , .banner_three{ 
+       padding: 10px 60px;
+   }
+}
+@media screen and (max-width:974px){
+    .banner_one{
+        height: 70vh;
+    }
+}
+@media screen and (max-width:869px){
+    .banner_one{
+        height: 60vh;
+    }
+}
+@media screen and (max-width:862px){
+    .our_products h4{
+        transform: scale(0.6);
+        margin-left: -30px;
+    }
+    .our_products h1{
+        font-size: 25px;
+    }
+    .buy_ice_cream_button button{
+        height: 29px;
+    }
+    .our_products p{
+        font-size: 12px;
+    }
+    .buy_ice_cream_images img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:767px){
+    .box_one div ,.box_three div,.box_two div{
+        transform: scale(0.6);
+        margin-bottom: -20px;
+        margin: 0 auto;
+    }
+    .box_one ,.box_three,.box_two {
+        padding: 10px;
+        text-align: center;
+        height: 270px;
+    }
+    .box_one a  ,.box_one p ,.box_three a ,.box_three p,.box_two a, .box_two p{
+        font-size: 12px;
+    }
+    .box_two p,.box_one p,.box_three p{
+        margin-bottom: 10px;
+    }
+    .buy_ice_cream_button button{
+        width: 90px;
+    }
+    .buy_ice_cream_button button:nth-child(1){
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width:746px){
+    .banner_two{
+        /* margin-top: 400px; */
+    }
+    .banner_one{
+        height: 104vh;
+    }
+    .box_one ,.box_three,.box_two {
+        width: 201px;
+        margin: 10px;
+    }
+    .banner_two{
+        display: flex;
+        flex-wrap: wrap;
+    }   
+    .buy_ice_cream_images button{
+      
+    }
+    .banner_three{
+        display: block;
+        position: relative;
+    }
+    .buy_ice_cream_images{
+        position: absolute;
+        /* margin: 0 auto; */
+        top: 0;
+        left: 15%;
+    }
+    .buy_ice_cream_images img{
+        width: 400px;
+    }
+    .our_products{
+        text-align: center;
+        margin-top: 500px;
+    }
+    .cost_ice_cream {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .our_products h4{
+        margin: 0 auto;
+    }
+    .our_products h1{
+        font-size: 30px;
+    }
+    .our_products p{
+        font-size: 15px;
+    }
+}
+.cost_ice_cream div{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:703px){
+    .buy_ice_cream_images{
+        left: 12%;
+    }
+}
+@media screen and (max-width:663px){
+     .banner_two{
+         height: 662.2px;
+     }   
+}
+@media screen and (max-width:656px){
+    .banner_three{
+        margin-top: -30px;
+    }
+    .buy_ice_cream_images{
+        left: 10%;
+        transform: scale(0.9);
+    }
+    .our_products{
+        margin-top: 470px;
+    }
+}
+@media screen and (max-width:600px){
+    .buy_ice_cream_images{
+        left: 6%;
+        transform: scale(0.8);
+    }
+    .our_products {
+        margin-top: 440px;
+    }
+}
+@media screen and (max-width:554px){
+    .banner_three{
+      margin-top: -70px;
+    }
+    .buy_ice_cream_images{
+        transform: scale(0.7);
+        left: 1%;
+    }
+}
+@media screen and (max-width:507px){
+    .buy_ice_cream_images{
+        left: -2%;
+        top: -3%;
+        transform: scale(0.6);
+    }
+    .our_products{
+        margin-top: 400px;
+    }
+}
+@media screen and (max-width:482px){
+    .banner_one{
+        height: 90vh;
+    }
+    .buy_ice_cream_images{
+        left: -4%;
+        top:-9%;
+    }
+    .our_products{
+        margin-top: 340px;
+    }
+}
+@media screen and (max-width:453px){
+    .buy_ice_cream_images{
+        left: -8%;
+    }
+}
+@media screen and (max-width:443px){
+    .banner_one{
+        height: 86vh;
+    }
+}
+@media screen and (max-width:442px){
+    .banner_three{
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width:434px){
+    .buy_ice_cream_images{
+        transform: scale(0.5);
+    }
+    .banner_one ,.banner_three{
+        padding: 0px 20px;
+    }
+    .banner_one{
+        height: 85vh;
+    }
+    .buy_ice_cream_images{
+        top:-150%;
+    }
+    .our_products{
+        margin-top: 450px;
+    }
+}
+/* .ice_cream_image{
+    height: auto;
+} */
+@media screen and (max-width:423px)
+{
+    .buy_ice_cream_images{
+        left: -13%;
+    }
+}
+@media screen and (max-width:389px){
+      .buy_ice_cream_images{
+          left: -17%;
+      }
+      .banner_one{
+          height: 75vh;
+      }
+}
+@media screen and (max-width:366px){
+      .buy_ice_cream_images{
+          left: -20%;
+      }
+}
+@media screen and (max-width:345px){
+    .buy_ice_cream_images{
+        left: -25%;
+    }
+}
+@media screen and (max-width:333px){
+    .banner_one{
+        height: 67vh;
+    }
+    .buy_ice_cream_images{
+        transform: scale(0.45);
+        left: -28%;
+        top: -165%;
+    }
+    .our_products h1{
+        font-size: 25px;
+    }
+    .our_products p{
+        font-size:11px ;
+    }
+}
+@media screen and (max-width:316px){
+    .buy_ice_cream_images{
+        left: -33%;
+    }
+}
+@media screen and (max-width:299px){
+    .buy_ice_cream_images{
+         left: -38%;
+    }
+    .banner_two{
+        margin-top: 10px;
+    }
+}
+.banner_four{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    width: 100%;
+}
+.why_choose_us_img{
+    height: auto;
+    /* background-color: #A4E28F; */
+}
+.why_choose_us_description h3{
+    width: 162px;
+    height: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #D1231E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 235, 235, 0.52);
+    border-radius: 26px;
+    margin-bottom: 18px;
+}
+.why_choose_us_description h1{
+    font-weight: 800;
+    font-size: 39px;  
+    line-height: 135%;
+    width: 456px;
+   margin-bottom: 25px;
+}
+.why_choose_us_description{
+    /* background-color: #93E3E3; */
+}
+.why_choose_us_description p{
+    width: 449px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;  
+    margin-bottom: 40px;  
+}
+.why_choose_us_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: #93E3E3; */
+}
+.box_ice_cream ,.box_following ,.box_get_award{
+    width: 100px;
+    height: 54px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    display: flex;    
+}
+.box_ice_cream div h2 , .box_following div h2 ,.box_get_award div h2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;  
+    color: #FA7154;  
+    margin-top: 10px;
+}
+.box_ice_cream div h4 ,.box_following div h4 , .box_get_award div h4 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+}
+.box_ice_cream img ,.box_following img,.box_get_award img{
+    width: 30px;
+    height: 40px;
+    margin-top: 9px;
+}
+.why_choose_us_description button{
+    width: 155px;
+    height: 49px; 
+    border: 2px solid rgba(206, 35, 30, 0.05);
+    box-shadow: inset 15px 8px 38px rgba(96, 10, 8, 0.2);
+    border-radius: 50px;
+    margin-top: 40px;  
+    border: none;
+    color: #D0231E;  
+}
+@media screen and (max-width:1263px) {
+    .why_choose_us_img{
+        width: 550px;
+    }
+}
+@media screen and (max-width:1208px){
+    .why_choose_us_img{
+        width: 500px;
+    }
+}
+@media screen and (max-width:1157px){
+    .why_choose_us_description h1{
+        font-size: 30px;
+        width: 350px;
+    }
+    .why_choose_us_description p{
+        font-size: 14px;
+        width: 330px;
+    }
+    .banner_four button{
+        transform: scale(0.8);
+    }
+}
+@media screen and (max-width:1050px){
+    .why_choose_us_img{
+        width: 410px;
+    }
+}
+@media screen and (max-width:964px){
+    /* .why_choose_us_description h3{
+        transform: scale(0.8);
+        margin-left: -12px;
+    }
+    .why_choose_us_img{
+        width: 350px;
+    }
+    .why_choose_us_description h3{
+        margin-bottom: 5px;
+    }
+    .why_choose_us_description h1{
+        margin-bottom: 10px;
+    }
+    .why_choose_us_description P{
+        /* margin-bottom: 20px; */
+    /* }  */
+    .banner_four{
+        padding: 10px 60px;
+    }
+}
+@media screen and (max-width:887px){
+    .why_choose_us_description h3{
+        transform: scale(0.8);
+        margin-left: -12px;
+    }
+    .why_choose_us_img{
+        width: 350px;
+    }
+    .why_choose_us_description h3{
+        margin-bottom: 5px;
+    }
+    .why_choose_us_description h1{
+        margin-bottom: 10px;
+    }
+    .why_choose_us_description P{
+        /* margin-bottom: 20px;*/
+}
+@media screen and (max-width:862px){
+    .why_choose_us_description h1{
+        font-size: 25px;
+    }
+    .why_choose_us_description h3{
+        transform: scale(0.7);margin-left: -22px;
+    }
+    .banner_four button{
+        transform: scale(0.7);
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    .box_ice_cream ,.box_following ,.box_get_award{
+        transform: scale(0.9);
+    }
+    .why_choose_us_box{
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width:822px){
+    .why_choose_us_img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:772px){
+    .why_choose_us_description p{
+        font-size: 13px;
+        width: 300px;
+    }
+    .why_choose_us_description h1{
+        width: 300px;
+    }
+}
+@media screen and (max-width:746px){
+    .banner_four{
+        display: inline-block;
+    }
+    .why_choose_us_description{
+        /* margin-top: 500px; */
+    }
+    .why_choose_us_img{
+        width: 450px;
+        margin-left: 80px;
+    }
+    .why_choose_us_description {
+        text-align: center;
+        width: 100%;
+    }
+    .why_choose_us_description p ,.why_choose_us_description h1{
+        width: 100%;
+    }
+    .why_choose_us_description h3{
+        margin: 0 auto;
+    }
+    .why_choose_us_description h1{
+        font-size: 35px;
+    }
+    .why_choose_us_description p{
+        font-size: 17px;
+    }
+    .box_ice_cream ,.box_following ,.box_get_award{
+        transform: scale(1.2);
+    }
+    .banner_four button{
+        transform: scale(0.9);
+    }
+}
+@media screen and (max-width:721px){
+   .why_choose_us_img{
+        margin-left: 50px; 
+    }
+}
+@media screen and (max-width:670px){
+    .why_choose_us_img{
+       width: 400px;
+       margin-left: 70px;
+    }
+}
+@media screen and (max-width:651px){
+    .why_choose_us_img{
+        margin-left: 56px;
+    }
+}
+@media screen and (max-width:600px){
+     .why_choose_us_img{
+         width: 360px;
+     }
+     .why_choose_us_description h1{
+         font-size: 30px;
+     }
+     .why_choose_us_description p{
+         font-size: 14px;
+     }
+}
+@media screen and (max-width:570px){
+    .why_choose_us_img{
+        width: 300px;
+        margin-left: 70px;
+    }
+    .box_ice_cream ,.box_following ,.box_get_award{
+        transform: scale(1);
+    }
+    .why_choose_us_description button{
+        width: 130px;
+        height: 40px;
+    }
+}
+@media screen and (max-width:535px){
+    .why_choose_us_img{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:500px){
+    .why_choose_us_img{
+        margin-left: 60px;
+        /* transform: scale(0.8); */
+        /* width: 250px; */
+    }
+    .banner_four{
+        padding: 10px 30px;
+    }
+}
+@media screen and (max-width:460px){
+    .why_choose_us_img{
+        width: 250px;
+        margin-left:60px;
+    }
+    .box_ice_cream ,.box_following ,.box_get_award{
+        transform: scale(0.9);
+    }
+}
+@media screen and (max-width:420px){
+    .why_choose_us_img{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:390px){
+    .why_choose_us_img {
+        width: 220px;
+    }
+    .box_ice_cream ,.box_following ,.box_get_award{
+        transform: scale(0.8);
+    }
+}
+@media screen and (max-width:370px){
+     .why_choose_us_img{
+         margin-left:35px ;
+     }
+     .why_choose_us_description h1{
+         font-size: 27px;
+     }
+      .why_choose_us_box{
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          margin: 0%;
+          flex-wrap: wrap;
+      }   
+      .box_ice_cream ,.box_following ,.box_get_award{
+           /* transform: scale(0.7); */
+           width: 106px;
+           height: 55px;
+      }  
+}
+@media screen and (max-width:337px){
+    .why_choose_us_img{
+        width: 200px;
+        margin-left: 35px;
+    }
+}
+@media screen and (max-width:317px){
+    .why_choose_us_img{
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width:305px){
+    .why_choose_us_description h1{
+        font-size: 23px;
+    }
+    .why_choose_us_description p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:300px){
+    .why_choose_us_img{
+        margin-left:15px;
+    }
+}
+}
+
+.banner_five{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 100px;
+    background: #F5F5F5;
+}
+.pricing_description h3{
+    font-weight: 700;
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 100%;
+    color: #D1231E;
+    width: 100px;
+    height: 21px;
+    background: #FFF5F5;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .banner_four{
+    background-color: rgba(204, 17, 154, 0.21);
+} */
+.pricing_description h1{
+    font-weight: 800;
+    font-size: 39px;
+    line-height: 135%;
+    margin-bottom: 30px;
+}
+.pricing_description span{
+    display: flex;
+    align-self: center;
+    /* justify-content: center; */
+}
+.star_five_pricing img{
+    /* background-color: #D0231E; */
+    height: 15px; 
+    width:15px;
+    margin-top: 17px;
+    margin-right: 5px;
+}
+.pricing_description span hr{
+    margin: 0px 20px ;
+}
+
+.pricing_description span hr{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 30px;
+    margin-top: 10px;
+}
+.pricing_description span h2 sub{
+    color: rgba(0, 0, 0, 0.2) ;
+}
+.pricing_image{
+    height: auto;
+    width: 651px;
+    margin: 0px 10px;
+    /* background-color: #93E3E3; */
+}
+.pricing_description{
+    /* background-color: #A4E28F; */
+    width: 500px;
+    line-height: 350%;
+}
+.pricing_description p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    width: 432px;
+    margin-bottom: 40px;
+}
+.button_one{
+    border: none;
+    color: white;
+    width: 128px;
+    height: 49px;
+    background: #D92520;
+    box-shadow: inset 15px 8px 38px rgba(96, 10, 8, 0.2);
+    border-radius: 50px;    
+    margin-right: 25px;
+}
+.button_two{
+    width: 153px;
+    height: 49px;
+    border: 1px solid rgba(206, 35, 30, 0.05);
+    box-shadow: inset 15px 8px 38px rgba(96, 10, 8, 0.2);
+    border-radius: 50px;
+    color: #D0231E;
+    border: none;
+}
+@media screen and (max-width:1356px) {
+    .pricing_image{
+        width: 600px;
+    }
+}
+@media screen and (max-width:1302px){
+    .pricing_image{
+        width: 560px;
+    }
+}
+@media screen and (max-width:1191px){
+    .pricing_image{
+        width: 500px;
+    }
+}
+@media screen and (max-width:1140px){
+    .pricing_image{
+        width: 450px;
+    }
+    .pricing_description h1{
+        font-size: 30px;
+    }
+    .button_one{
+        transform: scale(0.9);
+    }
+    .button_two{
+        transform: scale(0.9);
+    }
+    .pricing_description h1{
+        margin-bottom:10px;
+    }
+}
+@media screen and (max-width:1080px)
+{
+    .pricing_description p{
+       width: auto;
+    }
+}
+@media screen and (max-width:980px){
+     .button_one ,.button_two{
+        transform: scale(0.8);
+    }
+    .pricing_image{
+        width: 400px;
+    }
+}
+@media screen and (max-width:930px){
+    .banner_five {
+        padding: 10px 60px ;
+    }
+}
+@media screen and (max-width:860px){
+    .pricing_description h1{
+        font-size: 25px;
+    }
+    .pricing_description span h2{
+        font-size: 18px;
+    }
+    .pricing_description p{
+        font-size: 14px;
+    }
+    .button_one ,.button_two{
+        margin-left: -12px;
+        width: 130px;
+        height: 40px;
+    }
+}
+@media screen and (max-width:810px){
+    .pricing_image{
+        width: 350px;
+    }
+    .pricing_description span img{
+        margin: 16px 1px;
+    }
+}
+@media screen and (max-width:760px){
+    .pricing_image{
+        width: 330px;
+    }
+}
+@media screen and (max-width:746px){
+     .banner_five{
+         display: block;
+         position: relative;
+     }
+     .pricing_image{
+         position: absolute;
+         top: 0;
+         left: 13%;
+         width: 500px;
+     }
+     .pricing_description{
+         margin-top: 530px;
+         width: 100%;
+         text-align: center;
+     }
+     .pricing_description span{
+         margin-left: 35%;
+     }
+     .pricing_description h3{
+         margin: 0 auto;
+     }
+     .pricing_description h1{
+         font-size: 35px;
+     }
+     .pricing_description p{
+         font-size: 16px;
+     }
+}
+@media screen and (max-width:710px){
+    .pricing_image{
+        width:450px ;
+        left: 15%;
+    }
+    .pricing_description{
+        margin-top: 460px;
+    }
+}
+@media screen and (max-width:672px){
+    .pricing_image{
+        width: 400px;
+        left: 17%;
+    }
+    .pricing_description {
+        margin-top: 430px;
+    }
+}
+@media screen and (max-width:634px){
+    .pricing_image{
+        left: 14%;
+    }
+}
+@media screen and (max-width:595px){
+    .pricing_description h3{
+        transform: scale(0.8);
+    }
+    .pricing_description h1{
+        font-size: 30px;
+    }
+    .pricing_image{
+        left: 12%;
+    }
+}
+@media screen and (max-width:551px){
+    .pricing_image{
+        width: 350px;
+        left: 14%;
+    }
+    .pricing_description {
+        margin-top: 370px;
+    }
+    .pricing_description p{
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width:515px){
+    .pricing_image{
+        width: 300px;
+        left: 16%;
+    }
+    .pricing_description{
+        margin-top: 320px;
+    }
+}
+@media screen and (max-width:464px){
+    .banner_five{
+        padding: 10px 30px;
+    }
+    .pricing_image{
+        left: 12%;
+    }
+}
+@media screen and (max-width:433px){
+    .pricing_image{
+        width: 250px;
+        left: 15%;
+    }
+    .pricing_description{
+        margin-top: 260px;
+    }
+    .pricing_description h1{
+        font-size: 27px ;
+    }
+    .pricing_description span{
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width:400px){
+    .pricing_image{
+        left: 13%;
+    }
+}
+@media screen and (max-width:367px){
+    .pricing_image{
+        left: 10%;
+    }
+    .pricing_description span {
+        margin-left: 18%;
+    }
+}
+@media screen and (max-width:341px){
+    .pricing_description h1{
+        font-size: 23px;
+    }
+    .pricing_description h3{
+        transform: scale(0.7);
+    }
+    .pricing_description p{
+        font-size: 14px;
+    }
+    .pricing_image{
+        width: 220px;
+        left: 12%;
+    }
+    .pricing_description{
+        margin-top: 230px;
+    }
+    .button_one{
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width:310px){
+    .button_one ,.button_two{
+      width: 100px;
+      height: 30px;
+    }
+    .button_one{
+        margin-right: 0px;
+    }
+    .pricing_image{
+        left: 8%;
+    }
+}
+@media screen and (max-width:301px){
+    .pricing_description h1{
+        font-size: 20px;
+    }
+    .pricing_description p{
+        font-size: 12px;
+    }
+}
+.banner_six{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.cameron_williamson_descroptoin h5{
+    display: flex;
+}
+.cameron_williamson_descroptoin h5 hr{
+    /* transform: rotate(90deg); */
+    margin-right: 18px;
+    margin-top: 12px;
+    width: 49px;
+    height: 0px;
+    border: 1px solid #C4C4C4;
+}
+/* .cameron_williamson_img{
+    height: auto;
+    width: 795.56px;
+    /* /* background-color: #A4E28F;  
+} */
+.cameron_williamson_img_two{
+   margin-right: 30px;
+   background-color: #93E3E3;
+   height: auto;
+}
+.cameron_williamson_descroptoin h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FA7154;
+    margin-bottom: 10px;
+}
+.cameron_williamson_descroptoin h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 38px;
+}
+.cameron_williamson_descroptoin p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    width: 100%;
+}
+.cameron_williamson_descroptoin{
+    background-color: #A4E28F;
+}
+@media screen and (max-width:1370px){
+    /* .cameron_williamson_img{
+        width: 750px;
+    }    */
+}
+@media screen and (max-width:1260px){
+    .cameron_williamson_descroptoin p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:1220px){
+    /* .cameron_williamson_img{
+        width:700px;
+    } */
+}
+@media screen and (max-width:1170px){
+    /* .cameron_williamson_img{
+        width: 650px;
+    } */
+}
+@media screen and (max-width:1120px){
+    /* .cameron_williamson_img{
+        width: 600px;
+    } */
+}
+@media screen and (max-width:1070px){
+    .cameron_williamson_img_two{
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width:1050px){
+    /* .cameron_williamson_img{
+        width: 550px;
+    } */
+}
+@media screen and (max-width:1000px){
+     .cameron_williamson_img_two{
+         width: 13px;
+     }
+     .cameron_williamson_descroptoin h5{
+         margin-bottom: 20px;
+     }
+     .cameron_williamson_descroptoin p{
+         font-size: 14px;
+     }
+}
+@media screen and (max-width:955px){
+    /* .cameron_williamson_img{
+        width: 500px;
+    } */
+}
+@media screen and (max-width:908px){
+     /* .cameron_williamson_img{
+          width: 450px;
+ 
+     } */
+}
+@media screen and (max-width:824px){
+    /* .cameron_williamson_img{
+        width: 400px;
+    } */
+}
+@media screen and (max-width:746px){
+    .banner_six{
+        display: block;
+    }
+    /* .cameron_williamson_img{
+        display: block;
+        margin: 0 auto;
+        width: 550px;
+    } */
+    .cameron_williamson_img_two{
+       display: none;
+    }
+    .cameron_williamson_descroptoin{
+        text-align: center;
+    }
+    .cameron_williamson_descroptoin h5 , .cameron_williamson_descroptoin h5 hr{
+        margin: 0 auto;
+        display: block;
+    }
+    .cameron_williamson_descroptoin p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:650px){
+    /* .cameron_williamson_img{
+        width: 500px;
+    } */
+}
+@media screen and (max-width:600px){
+    /* .cameron_williamson_img{
+        width: 450px;
+    } */
+}
+@media screen and (max-width:550px){
+    /* .cameron_williamson_img{
+        width: 400px;
+    } */
+}
+@media screen and (max-width:500px){
+    .banner_six{
+        padding: 10px 25px;
+    }
+}
+@media screen and (max-width:450px){
+    /* .cameron_williamson_img{
+        width: 350px;
+    } */
+}
+@media screen and (max-width:400px){
+    .cameron_williamson_descroptoin p{
+        font-size: 16px;
+    }
+    /* .cameron_williamson_img{
+        width: 300px;
+    } */
+}
+@media screen and (max-width:350px){
+    /* .cameron_williamson_img{
+        width: 250px;
+    } */
+}
+@media screen and (max-width:300px){
+    .cameron_williamson_descroptoin p{
+      font-size: 14px;
+    }
+    /* .cameron_williamson_img{
+        width: 200px;
+    } */
+}
+.banner_seven{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.joined_banner{
+    background: url(./Rectangle\ 24.png);
+    width: 939px;
+    height: 403px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.joined_box{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    background: rgba(24, 12, 13, 0.85);
+    backdrop-filter: blur(1px);
+    color: white;
+    text-align: center;
+    padding: 30px 80px;
+}
+.joined_box h4{
+    width: 146px;
+    height: 28px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CF231E;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    border-radius: 4px;
+    margin-bottom: 50px;
+}
+.joined_box h2{
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 140%;
+    margin-bottom: 25px;
+}
+.joined_box p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 35px;
+}
+.joined_button_one{ 
+    width: 146px;
+    height: 49px;
+    background: #D92520;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    margin-right: 20px;
+}
+.joined_button_two{
+    width: 139px;
+    height: 49px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+    border-radius: 224px;
+    background-color: #fff;
+    color: red;
+}
+.banner_seven{
+    padding: 10px 40px ;
+}
+@media screen and (max-width:1100px){
+    .joined_banner {
+        width: 850px;
+    }
+}
+@media screen and (max-width:1000px){
+    .joined_banner{
+        width: 750px;
+    }
+    .joined_button_one , .joined_button_two{
+        transform: scale(0.8);
+    }
+}
+@media screen and (max-width:870px){
+    .joined_banner{
+        width: 600px;
+    }
+    .joined_box h2{
+        font-size: 25px;
+    }
+    .joined_box p{
+        font-size: 14px;
+    }
+    .joined_box h4{
+        transform: scale(0.8);
+    }
+}
+@media screen and (max-width:720px){
+    .joined_box{
+        padding: 40px 40px;
+        width: auto;
+    }
+    .joined_banner{
+        width: auto;
+    }
+    .joined_button_two ,.joined_button_two{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:640px){
+    .joined_button_one , .joined_button_two{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:500px){
+    .joined_button_one ,.joined_button_two{
+        transform: scale(0.7);
+    }
+}
+@media screen and (max-width:470px){
+    .joined_box{
+        padding: 20px  20px;
+    }
+    .joined_button_one ,.joined_button_two{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width:430px){
+    .joined_button_one , .joined_button_two{
+        transform: scale(1);
+        width: 100px;
+        height: 30px;
+    }
+}
+@media screen and (max-width:365px){
+    .joined_box h4{
+        margin-bottom: 40px;
+    }
+    .joined_box h2{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .joined_box p{
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:345px){
+    .banner_seven{
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width:305px){
+    .joined_button_one , .joined_button_two{
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .joined_button_one{
+        margin-right: 10px;
+    } 
+}
+.cameron_williamson_img{
+    width: 100%;
+    height: 100%;
+    position: relative;  
+    /* background-color: #A4E28F; */
+}
+.elipse{
+    width: 500px;
+    height: 500px;
+    margin:  60px 60px;
+    border: 2px solid #a09d9d51;
+    border-radius: 50%;
+}
+.elipse_one{
+     position: absolute;
+     top: 200px;
+     left: 200px;
+     /* background-color: #e3d793; */
+     border-radius: 50%;
+}
+.elipse_two{
+    position: absolute;
+    left: 110px;
+    top: 40px;
+}
+.elipse_three{
+    position: absolute;
+    left: 60px;
+    top: 410px;
+}
+.elipse_four{
+    position: absolute;
+    left: 430px;
+    top:100px ;
+}
+.elipse_five{
+    position: absolute;
+    left: 430px;
+    top: 400px;
+}
+.cameron_williamson_descroptoin h4{
+    font-size: 25px;
+}
+@media screen and (max-width:1100px) {
+    .cameron_williamson_img{
+        transform: scale(0.9);
+        margin-left: -40px;
+    }
+}
+@media screen and (max-width:1030px){
+    .cameron_williamson_img{
+        transform: scale(0.8);
+        margin-left: -70px;
+        margin-right: -30px;
+    }
+}
+@media screen and (max-width:925px){
+    .cameron_williamson_img{
+        transform: scale(0.6);
+        margin-right: -90px;
+        margin-top: -100px;
+        margin-left: -140px;
+    }
+    .cameron_williamson_descroptoin , .cameron_williamson_img_two{
+        margin-top: -100px;
+    }
+}
+@media screen and (max-width:795px){
+    .cameron_williamson_img{
+        transform: scale(0.5);
+        margin-right: -150px;
+        margin-left: -150px;
+    }
+}
+@media screen and (max-width:746px){
+    .cameron_williamson_img{
+        height: 600px;
+        transform: scale(0.8);
+        width: 700px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        margin-left: -50px;
+        margin-bottom: 50px;
+    }
+    .banner_six{
+        padding-top: 60px;
+    }
+    .elipse_five{
+        left: 480px;
+    }
+    .elipse_one{
+        left: 240px;
+    }
+    .elipse_two{
+        left: 150px;
+    }
+    .elipse_three{
+        left: 90px;
+    }
+    .elipse_four{
+        left: 480px;
+    }
+}
+@media screen and (max-width:690px){
+    .cameron_williamson_img{
+        transform: scale(0.7);
+        margin-bottom: 30px;
+        margin-left: -80px;
+    }
+}
+@media screen and (max-width:630px){
+    .cameron_williamson_img{
+        transform: scale(0.6);
+        margin-bottom: -10px;
+        margin-left: -100px;
+        margin-top: -150px;
+    }
+}
+@media screen and (max-width:590px){
+    .cameron_williamson_img{
+        margin-left: -120px;
+    }
+}
+@media screen and (max-width:540px){
+    .cameron_williamson_img{
+        transform: scale(0.5);
+        margin-bottom: -140px;
+        margin-top: -200px;
+        margin-left: -140px;
+
+    }
+}
+@media screen and (max-width:450px){
+    .cameron_williamson_img{
+        transform: scale(0.4);
+        margin-left: -170px;
+        margin-top:-230px ;
+        margin-bottom: -170px;
+    }
+}
+@media screen and (max-width:400px){
+    .cameron_williamson_img{
+        margin-left: -190px;
+    }
+}
+@media screen and (max-width:356px){
+    .cameron_williamson_img{
+        transform: scale(0.35);
+        margin-bottom: -180px;
+        margin-left: -210px;
+    }
+    .cameron_williamson_descroptoin P{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:316px){
+    .cameron_williamson_img{
+        margin-left: -230px;
+    }
+    .cameron_williamson_descroptoin h4{
+        font-size: 20px;
+    }
+}
+.cameron_williamson_descroptoin{
+    background: transparent;
+}
+.banner_seven{
+    margin-top: -100px;
+}
+@media screen and (max-width:1100px) {
+    .banner_seven{
+        margin-top: -140px;
+    }
+}
+@media screen and (max-width:880px){
+    .banner_seven{
+        margin-top: -160px;
+    }
+}
+@media screen and (max-width:795px){
+    .banner_seven{
+        margin-top: -210px;
+    }
+}
+@media screen and (max-width:746px){
+    .banner_seven{
+        margin-top: -40px;
+    }
+}
+footer{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #191919;
+    color: white;
+}
+.ice_cream_footer h1 span{
+   color: #fd5533;
+}
+.ice_cream_footer h1{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 160%;
+    margin-bottom: 20px;
+}
+.ice_cream_footer p{
+    width: 223px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.5);
+}
+footer ul li  h4{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 140%;  
+    margin-bottom: 30px;
+}
+.footer_link li a{
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer_link li{
+    margin-bottom: 10px;
+}
+.footer_following h1{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 140%;
+    margin-bottom: 35px;
+}
+.footer_following button {
+    width: 40px;
+    height: 41px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background-color: #191919;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.footer_newsletter h4{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+.footer_newsletter input{
+    width: 261px;
+    outline: none;
+    height: 45px;
+    border-radius: 3px;
+    border: none;
+    padding: 0px 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.footer_newsletter button{
+    width: 261px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #191919;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.cameron_williamson_img_two{
+    background: transparent;
+}
+@media screen and (max-width:1020px){
+    .ice_cream_footer h1{
+        font-size: 30px;
+    }
+    .ice_cream_footer p{
+        font-size: 12px;
+        max-width: 170px;
+    }
+    footer ul li h4{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+     .footer_link  li{
+         margin-bottom: 4px;
+    }
+    footer ul li a{
+        font-size: 12px;
+    }
+    .footer_following h1{
+        font-size: 20px;
+    }
+    .footer_following button{
+        width: 30px ;
+        height: 30px;
+        font-size: 13px;
+        margin-right: 7px;
+    }
+    .footer_newsletter h4{
+        font-size: 20px;
+    }
+    .footer_newsletter input{
+            width: 200px;
+            height: 30px;
+            font-size: 12px;
+    }
+    .footer_newsletter button{
+        width: 200px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:746px){
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 30px;
+        height: auto;
+    }
+    .ice_cream_footer{
+        margin: 0px 20px ;
+    }
+    .footer_link{
+        margin: 40px 20px ;
+     }
+     .footer_following{
+         margin: 0px 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .footer_following div button{
+       margin: 0px 30px;
+    }
+    .footer_newsletter{
+        margin: 0px 20px;
+    }
+}
+@media screen and (max-width:573px){
+    .footer_newsletter {
+        display: flex;
+    }
+    .footer_newsletter h4{
+        display: none;
+    }
+    .footer_newsletter input{
+        margin: 0 20px;
+    }
+    .footer_following{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:533px){
+    .ice_cream_footer{
+        margin-top: -50px;
+    }
+    footer{
+        margin-top: -30px;
+    }
+    .footer_newsletter input{
+        width: 150px;
+        padding: 0px 5px;
+        font-size: 11px;
+        margin-left: -7%;
+        margin-right: 13%;
+    }
+    .footer_newsletter button{
+        width: 130px;
+    }
+    .footer_following div button{
+        margin: 0px 15px;
+    }
+}
+@media screen and (max-width:360px){
+     .footer_link{
+         display: none;
+     }
+     footer{
+         height: 100%;
+         margin-top: -50px;
+     }
+    .ice_cream_footer{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .ice_cream_footer p{
+        max-width: 100%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .footer_newsletter{
+        display: block;
+        margin-top: 20px;
+    }
+    .footer_newsletter input{
+        width: 160px;
+        margin: 0 auto;
+    }
+    .footer_newsletter button{
+        width: 160px ;
+        margin-top: 15px;
+    }
+    .footer_following div button {
+        margin: 0px 9px;
+
+    }
+}
+header ul li a:hover ,.footer_link li a:hover , a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.footer_newsletter button:hover , .footer_following button:hover{
+    background: #4846469d;
+    transition: 0.2s;
+}
+header  button:hover , .ice_cream_information button:hover ,.buy_ice_cream_button button:nth-child(1):hover , .button_one:hover ,.joined_button_one:hover{ 
+    background-color: white;
+    border: none;
+    color: red;
+}
+.buy_ice_cream_button button:nth-child(2):hover , .buy_ice_cream_images button:hover , .buy_ice_cream_images button i:hover , .why_choose_us_description button:hover ,.button_two:hover ,.joined_button_two:hover , .footer_following button:hover ,.footer_newsletter button:hover{
+    background-color: #D0231E;
+    color: white;
+    transition: 0.3s;
+}
+.box_one:hover ,.box_three:hover ,.box_two:hover{ 
+    background-color: #f7bcea;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.box_one, .box_three ,.box_two{
+    transition: 0.5s;
+}
+header h1:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    text-shadow: 0 0 30px black;
+}
+header h1{
+    transition: 0.3s;
+}
